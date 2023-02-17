@@ -21,7 +21,7 @@ public class Activity2 extends AppCompatActivity {
 
         button2=findViewById(R.id.btn2);
         txtView=findViewById(R.id.textView2);
-        viewAge=findViewById(R.id.viewAge);
+        viewAge=findViewById(R.id.viewage);
 
         Intent intent=getIntent();
         String name=intent.getStringExtra("USER NAME");
